@@ -1,0 +1,9 @@
+---
+layout: default
+title: Gary Bramwell
+---
+
+<h1>Content here</h1>
+{% for posts in site.posts limit:5 %}
+  <a href="{{ post.url }}">{{ post.title }}</a>
+{% endfor %}

@@ -1,0 +1,6 @@
+---
+title: Test Post
+layout: post
+---
+
+h1. It works!
